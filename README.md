@@ -1,46 +1,89 @@
-# Getting Started with Create React App
+# SenseOSC
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
 
-## Available Scripts
+1. [Description](#description)
+2. [Pre-requisites](#pre-requisites)
+3. [How to Run](#how-to-run)
+4. [Inspirations](#inspirations)
+5. [Acknowledgements](#acknowledgements)
+6. [License](#license)
 
-In the project directory, you can run:
+## Description
 
-### `npm start`
+SenseOSC is an innovative IoT (Internet of Things) solution specifically designed for use in dance art projects. The project harnesses the power of the Arduino Nicla Sense Me Bosch Microcontroller to gather real-time sensor data over Bluetooth Low Energy.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+In addition to its core functionality of collecting environmental data, SenseOSC goes beyond traditional IoT applications by seamlessly integrating with Isadora, a powerful visual programming environment for interactive media. SenseOSC utilizes UPD (User Datagram Protocol) packets over Open Sound Control (OSC) to transmit sensor data directly to Isadora in real-time.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Isadora is a versatile software tool used by artists, performers, and creative technologists to create interactive and immersive multimedia experiences. With its intuitive interface and extensive capabilities for real-time audiovisual processing, Isadora serves as the perfect companion for SenseOSC in dance art projects.
 
-### `npm test`
+### Key features of SenseOSC include
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Plug-and-Play Compatibility:** SenseOSC is designed for ease of use, allowing users to quickly set up and deploy environmental sensors without the need for complex configurations or extensive technical expertise.
 
-### `npm run build`
+- **Seamless Integration with Isadora:** By leveraging UPD packets over OSC, SenseOSC enables direct communication with Isadora, empowering users to incorporate real-time sensor data into their dance art performances with ease.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Enhanced Creativity and Expression:** SenseOSC opens up new possibilities for artistic expression by providing dancers and choreographers with access to rich, dynamic sensor data. From interactive lighting effects triggered by movement to soundscapes that respond to environmental conditions, SenseOSC adds an extra layer of creativity to dance art projects.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+SenseOSC is purposefully designed to bridge the gap between technology and art, empowering creators to explore the intersection of sensor technology, interactive media, and dance performance in innovative and meaningful ways. Whether you're a professional dancer, a multimedia artist, or an enthusiast exploring the boundaries of creative expression, SenseOSC invites you to unleash your imagination and transform your artistic vision into reality.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Pre-requisites
 
-### `npm run eject`
+SenseOSC requires the following to run smoothly:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Windows or Intel Mac
+- Bluetooth > 4.0
+- BLE Sensor
+- [Chrome](https://www.google.com/intl/en_en/chrome/)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## How to run
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+To run SenseOSC, follow these steps:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+1. Downoload SenseOSC zip file.
+2. Unzip and then open folder.
+3. Open start file.
+4. Open localhost port shown in terminal and have fun!
 
-## Learn More
+## Information
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Build With
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- TypeScript
+- React
+- Styled-components
+- C# .NET Server
+- OSC (Open Sound Control)
+- BLE (Bluetooth Low Energy)
+
+## Inspirations
+
+- [Nicla Sense Me dashboard Web](https://arduino.github.io/ArduinoAI/NiclaSenseME-dashboard)
+
+- [Nicla Sense Me dashboard Github](https://github.com/arduino/ArduinoAI/tree/main/NiclaSenseME-dashboard)
+
+- [Communicating with Bluetooth devices over JavaScript](https://developer.chrome.com/docs/capabilities/bluetooth)
+
+- [Web Bluetooth Samples](https://googlechrome.github.io/samples/web-bluetooth/)
+
+## Acknowledgements
+
+Taikabox & Nextier.
+
+## Contributors
+
+[Veikka Puolitaival](https://github.com/veikka-p/)
+
+## Contributing
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/Feature`)
+3. Commit your Changes (`git commit -m 'Add some Feature'`)
+4. Push to the Branch (`git push origin feature/Feature`)
+5. Open a Pull Request
+
+## License
+
+UNLICENSED
