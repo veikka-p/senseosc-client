@@ -1,0 +1,6 @@
+**/node_modules
+**/dist
+**/build
+client/scripts/
+client/config/
+server/public/
