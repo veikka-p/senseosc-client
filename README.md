@@ -2,6 +2,10 @@
 
 SenseOSC Client is a TypeScript and React application responsible for managing the user interface and interaction with the SenseOSC server.
 
+[SenseOSC](https://github.com/veikka-p/senseosc)
+
+[SenseOSC Server](https://github.com/veikka-p/senseosc-server)
+
 ## Prerequisites
 
 - Windows or Intel Mac
