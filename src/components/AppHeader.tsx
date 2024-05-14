@@ -58,12 +58,15 @@ const StyledAppHeader = styled.header`
   align-items: flex-start;
   row-gap: 1rem;
   padding: 0rem 1rem 0rem 1rem;
+  max-width: 20%;
+  width: 20%;
+  height: 100%;
+  padding: 1rem;
 `;
 
 const Title = styled.h1`
   letter-spacing: 0.4rem;
   font-size: 2.5rem;
-  align-self: center;
   text-transform: uppercase;
   color: #30343f;
 `;
@@ -72,7 +75,6 @@ const ButtonsContainer = styled.div`
   display: flex;
   flex-direction: column;
   row-gap: 1rem;
-  align-self: center;
 `;
 
 export default AppHeader;

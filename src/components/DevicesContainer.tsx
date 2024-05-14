@@ -52,6 +52,7 @@ const StyledDevicesContainer = styled.section`
   display: grid;
   grid-template-columns: auto auto auto;
   gap: 0.5rem;
+  padding: 1rem;
 `;
 
 export default DevicesContainer;

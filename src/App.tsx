@@ -101,8 +101,7 @@ function App() {
 const StyledApp = styled.div`
   display: flex;
   align-items: flex-start;
-  min-height: 100vh;
-  padding: 1rem;
+  height: 100%;
   background-color: #fafaff;
   font-family: "Ubuntu mono", monospace;
 `;
